@@ -38,4 +38,4 @@ Selenium 是一套仿使用者操作網頁的測試工具，用來取代傳統�
  ```
  C:\ ~&gt; java -jar selenium-server-standalone-2.45.0.jar
  ```
- ![service](./img/Seservice.png)
+ ![service](./img/SeService.png)
