@@ -20,5 +20,22 @@ Selenium 是一套仿使用者操作網頁的測試工具，用來取代傳統�
 "Options &gt; Format" 中有各種語言可以選擇，如果Format中顯示 "Want the formats back? Click to read more"，點選 "Options &gt; Options" 勾選 "Enable experimental features" 後即會顯示Formats。
 
 ![noFormat](./img/noFormat.png)
-![enable](./img/enableOptions.PNG)
+![enable](./img/enableOptions.png)
 ![format](./img/Format.png)
+
+可將檔案匯出成PHP(PHPUunit)格式，複製script另存成.php檔即可:
+
+![php](./img/php.png)
+
+## Selenium RC
+使用 Selenium RC server 執行test case可以不需經由Firefox IDE，首先須下載 Selenium RC:
+
+### Install Selenium RC
+ - 首先，Selenium RC 是由JAVA寫成，請確保你的電腦有安裝JAVA
+ - 下載 [Selenium RC (2.45.0)](http://selenium-release.storage.googleapis.com/2.45/selenium-server-standalone-2.45.0.jar)
+ - 打開terminal，啟動service:
+
+ ```
+ C:\ ~&gt; java -jar selenium-server-standalone-2.45.0.jar
+ ```
+ ![service](./img/Seservice.png)
