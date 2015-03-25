@@ -20,7 +20,7 @@ Selenium 是一套仿使用者操作網頁的測試工具，用來取代傳統�
 "Options &gt; Format" 中有各種語言可以選擇，如果Format中顯示 "Want the formats back? Click to read more"，點選 "Options &gt; Options" 勾選 "Enable experimental features" 後即會顯示Formats。
 
 ![noFormat](./img/noFormat.png)
-![enable](./img/enableOptions.png)
+![enable](./img/enableOptions.PNG)
 ![format](./img/Format.png)
 
 可將檔案匯出成PHP(PHPUunit)格式，複製script另存成.php檔即可:
