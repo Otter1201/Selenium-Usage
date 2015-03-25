@@ -101,29 +101,95 @@ XPath 使用路徑表達式來選取XML文檔中的節點或節點集，透過�
 	</book>
 	</bookstore>
 
-|ex|描述|
-|-|-|
-|bookstore|選取所有bookstore下所有子元素|
-|/bookstore|選取根元素bookstore|
-|bookstore/book|選取bookstore下一層的所有book元素|
-|//book|搜尋整份文件下的book元素|
-|bookstore//book|在bookstore下，不論幾層，所有book元素|
-|//@lang|搜尋所有lang屬性|
+<table>
+	<thead>
+		<tr>
+			<th>ex</th>
+			<th>描述</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>bookstore</td>
+			<td>選取所有bookstore下所有子元素</td>
+		</tr>
+		<tr>
+			<td>/bookstore</td>
+			<td>選取根元素bookstore</td>
+		</tr>
+		<tr>
+			<td>bookstore/book</td>
+			<td>選取bookstore下一層的所有book元素</td>
+		</tr>
+		<tr>
+			<td>//book</td>
+			<td>搜尋整份文件下的book元素</td>
+		</tr>
+		<tr>
+			<td>bookstore//book</td>
+			<td>在bookstore下，不論幾層，所有book元素</td>
+		</tr>
+		<tr>
+			<td>//@lang</td>
+			<td>搜尋所有lang屬性</td>
+		</tr>
+	</tbody>
+</table>
 
 ### 謂語
 
-|ex|描述|
-|-|-|
-|/bookstore/book[1]|選取bookstore下的第一個book元素|
-|/bookstore/book[last()]|選取bookstore下的最後一個book元素|
-|/bookstore/book[last()-1]|選取bookstore下倒數第二個book元素|
-|/bookstore/book[price>35.00]|選取bookstore下所有price值大於35之book元素|
+<table>
+	<thead>
+		<tr>
+			<th>ex</th>
+			<th>描述</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>/bookstore/book[1]</td>
+			<td>選取bookstore下的第一個book元素</td>
+		</tr>
+		<tr>
+			<td>/bookstore/book[last()]</td>
+			<td>選取bookstore下的最後一個book元素</td>
+		</tr>
+		<tr>
+			<td>/bookstore/book[last()-1]</td>
+			<td>選取bookstore下倒數第二個book元素</td>
+		</tr>
+		<tr>
+			<td>/bookstore/book[price&gt;35.00]</td>
+			<td>選取bookstore下所有price值大於35之book元素</td>
+		</tr>
+	</tbody>
+</table>
 
 ### Wildcard
 
-|Wildcard|描述|
-|-|-|
-|*|所有node|
-|@*|所有attrbute|
-|node()|任何類型的node|
-|&Iota;|pipe, 選取多重路徑|
+<table>
+	<thead>
+		<tr>
+			<th>Wildcard</th>
+			<th>描述</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>*</td>
+			<td>所有node</td>
+		</tr>
+		<tr>
+			<td>@*</td>
+			<td>所有attrbute</td>
+		</tr>
+		<tr>
+			<td>node()</td>
+			<td>任何類型的node</td>
+		</tr>
+		<tr>
+			<td>&Iota;</td>
+			<td>pipe, 選取多重路徑</td>
+		</tr>
+	</tbody>
+</table>
