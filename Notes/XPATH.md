@@ -50,14 +50,41 @@ ex:
 XPath 使用路徑表達式來選取XML文檔中的節點或節點集，透過路徑(path)或是步(steps)選取。
 
 ### 表達式
-| 表達式 |描述|  
-| ------ |----|
-|node|選取此節點下所有子節點|  
-|/|根節點選取|  
-|//|搜尋自該節點下文件中所有符合的節點|
-|.|選取目前的node|
-|..|選曲目前的node之父節點|  
-|@|選取attrbute|
+
+<table>
+	<thead>
+		<tr>
+			<th>表達式</th>
+			<th>描述</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>node</td>
+			<td>選取此節點下所有子節點</td>
+		</tr>
+		<tr>
+			<td>/</td>
+			<td>根節點選取</td>
+		</tr>
+		<tr>
+			<td>//</td>
+			<td>搜尋自該節點下文件中所有符合的節點</td>
+		</tr>
+		<tr>
+			<td>.</td>
+			<td>選取目前的node</td>
+		</tr>
+		<tr>
+			<td>..</td>
+			<td>選曲目前的node之父節點</td>
+		</tr>
+		<tr>
+			<td>@</td>
+			<td>選取attrbute</td>
+		</tr>
+	</tbody>
+</table>
 
  Example	
 	
